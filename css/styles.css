@@ -1,3 +1,36 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
 h1 {
   color: pink;
+}
+
+.header {
+  padding-top: 25px;
+}
+
+.header__navbar_items {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.header__navbar_items > li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  padding: 15px 25px;
+  color: rgb(255, 132, 132);
+  transition: 0.8s 0.2s ease;
+  cursor: pointer;
+}
+a:hover {
+  border-bottom: 1px solid rgb(255, 33, 33);
+  color: rgb(255, 33, 33);
+  
 }
